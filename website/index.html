@@ -64,19 +64,18 @@
 									<ul>
 										<li>IAM</li>
 										<li>S3</li>
-										<li>CloudFront</li>
+										<li>AWS CloudFront</li>
 										<li>Certificate Manager</li>
 										<li>Route 53</li>
-										<li>Lambda</li>
-										<li>API Gateway</li>
+										<li>AWS Lambda</li>
 										<li>DynamoDB</li>
-										<li>SAM</li>
 									</ul>
-									<p>I have implemented a visitor counter which is persisted in a DynamoDB table and configured via a REST API endpoint to update the table using AWS API Gateway and AWS Lambda.</p>
-									<p>I implemented the AWS Lambda function using Python code - I'm not a programmer so I had some help with this!</p>
+									<p>I have implemented a visitor counter which is persisted in a DynamoDB table and configured a Functional URL via AWS Lambda.</p>
+									<p>I implemented the AWS Lambda function using Python - however I'm not a programmer so I had some help with this!</p>
 									<p>DNS has been configured via Route 53.</p>
-									<p>I use a Serverless Application Model template to update the application and maintain the codebase (Python and JavaScript) in a GitHub repository.</p>
-									<p>To complete, I implemented a CI/CD pipeline using GitHub Actions. </p>
+									<p>I maintain the codebase (Python and JavaScript) in a GitHub repository and implemented a CI/CD pipeline using GitHub Actions.</p>
+									<p>This is what the architecture looks like:</p>
+									<img src="images/architecture.jpg" alt="" />
 								</div>
 							</section>
 
